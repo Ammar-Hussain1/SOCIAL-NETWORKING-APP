@@ -2,7 +2,7 @@
 
 # SOCIAL NETWORKING APP
 
-This is a Social Networking app similar to Facebook and Instagram but the Posts can be text based only along with features like adding activity and sharing a memory created in C++ using QT framework. In this Application you can add friends follow pages and create posts add comments and like other users' posts.
+This is a GUI based Social Networking app similar to Facebook and Instagram but the Posts can be text based only along with features like adding activity and sharing a memory created in C++ using QT framework. In this Application you can add friends follow pages and create posts add comments and like other users' posts.
 
 ## FEATURES
 
