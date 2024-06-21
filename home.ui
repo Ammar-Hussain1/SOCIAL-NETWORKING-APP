@@ -1,0 +1,560 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Home</class>
+ <widget class="QMainWindow" name="Home">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>836</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(31, 31, 31);
+</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout" name="verticalLayout" stretch="1,9">
+    <item>
+     <layout class="QVBoxLayout" name="verticalLayout_3">
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout" stretch="3,5,3">
+        <item>
+         <layout class="QHBoxLayout" name="horizontalLayout_4">
+          <item alignment="Qt::AlignLeft|Qt::AlignTop">
+           <widget class="QPushButton" name="pushButton_viewProfile">
+            <property name="styleSheet">
+             <string notr="true">QPushButton {
+    border: none;
+    border-radius: 10px;
+    background-color: #333333;
+    color: white;
+    padding: 10px 20px;
+	margin-top:10px;
+	margin-left:10px;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    outline: none;
+}
+
+QPushButton:hover {
+    background-color: #555555;
+}</string>
+            </property>
+            <property name="text">
+             <string>VIEW PROFILE</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <layout class="QHBoxLayout" name="horizontalLayout_7">
+          <item alignment="Qt::AlignHCenter|Qt::AlignTop">
+           <widget class="QLabel" name="label">
+            <property name="font">
+             <font>
+              <pointsize>30</pointsize>
+              <bold>true</bold>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">color: rgb(255, 255, 255);</string>
+            </property>
+            <property name="text">
+             <string>SOCIAL APP</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <layout class="QHBoxLayout" name="horizontalLayout_5">
+          <item alignment="Qt::AlignRight">
+           <widget class="QLabel" name="label_currentUser">
+            <property name="font">
+             <font>
+              <pointsize>15</pointsize>
+              <bold>true</bold>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">color: rgb(255, 255, 255);</string>
+            </property>
+            <property name="text">
+             <string>CURRENT USER : </string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+       </layout>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <layout class="QVBoxLayout" name="verticalLayout_2" stretch="2,1,2,1,4,2">
+      <item>
+       <layout class="QVBoxLayout" name="verticalLayout_5">
+        <item>
+         <layout class="QHBoxLayout" name="horizontalLayout_2" stretch="2,4,2">
+          <item>
+           <layout class="QHBoxLayout" name="horizontalLayout_6">
+            <item>
+             <spacer name="horizontalSpacer_3">
+              <property name="orientation">
+               <enum>Qt::Horizontal</enum>
+              </property>
+              <property name="sizeHint" stdset="0">
+               <size>
+                <width>40</width>
+                <height>20</height>
+               </size>
+              </property>
+             </spacer>
+            </item>
+           </layout>
+          </item>
+          <item>
+           <layout class="QHBoxLayout" name="horizontalLayout_12">
+            <item>
+             <widget class="QLineEdit" name="lineEdit">
+              <property name="styleSheet">
+               <string notr="true">QLineEdit {
+    border: 2px solid #333333; 
+    border-radius: 10px;
+    padding: 8px 12px;
+    font-size: 16px;
+    color: #FFFFFF; 
+    background-color: #555555; 
+    height: 40px; 
+}
+
+QLineEdit:focus {
+    border-color: #4CAF50; 
+    background-color: #666666; 
+}
+
+QLineEdit::placeholder {
+    color: #AAAAAA; 
+}</string>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </item>
+          <item>
+           <layout class="QHBoxLayout" name="horizontalLayout_3">
+            <item alignment="Qt::AlignLeft|Qt::AlignVCenter">
+             <widget class="QPushButton" name="pushButton_search">
+              <property name="styleSheet">
+               <string notr="true">QPushButton {
+    border: none;
+    border-radius: 10px;
+    background-color: #333333;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    outline: none;
+}
+
+QPushButton:hover {
+    background-color: #555555;
+}</string>
+              </property>
+              <property name="text">
+               <string>SEARCH</string>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </item>
+         </layout>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <layout class="QVBoxLayout" name="verticalLayout_9">
+        <item>
+         <layout class="QHBoxLayout" name="horizontalLayout_8" stretch="2,4,2">
+          <item>
+           <layout class="QHBoxLayout" name="horizontalLayout_10">
+            <item>
+             <spacer name="horizontalSpacer">
+              <property name="orientation">
+               <enum>Qt::Horizontal</enum>
+              </property>
+              <property name="sizeHint" stdset="0">
+               <size>
+                <width>40</width>
+                <height>20</height>
+               </size>
+              </property>
+             </spacer>
+            </item>
+           </layout>
+          </item>
+          <item>
+           <layout class="QHBoxLayout" name="horizontalLayout_11">
+            <item alignment="Qt::AlignHCenter|Qt::AlignVCenter">
+             <widget class="QLabel" name="label_3">
+              <property name="font">
+               <font>
+                <pointsize>15</pointsize>
+                <bold>true</bold>
+               </font>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">color: rgb(255, 255, 255);</string>
+              </property>
+              <property name="text">
+               <string>LIST OF USERS AND PAGES</string>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </item>
+          <item>
+           <layout class="QHBoxLayout" name="horizontalLayout_9">
+            <item>
+             <spacer name="horizontalSpacer_2">
+              <property name="orientation">
+               <enum>Qt::Horizontal</enum>
+              </property>
+              <property name="sizeHint" stdset="0">
+               <size>
+                <width>40</width>
+                <height>20</height>
+               </size>
+              </property>
+             </spacer>
+            </item>
+           </layout>
+          </item>
+         </layout>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <layout class="QVBoxLayout" name="verticalLayout_8">
+        <item>
+         <widget class="QListWidget" name="listWidget">
+          <property name="styleSheet">
+           <string notr="true">QListWidget {
+    background-color: #333333;
+    border: 1px solid #666666;
+    color: #CCCCCC;
+    font-family: Arial;
+    font-size: 12px;
+}
+
+QListWidget::item {
+    background-color: #444444;
+    padding: 8px;
+}
+
+QListWidget::item:hover {
+    background-color: #555555;
+}
+
+QListWidget::item:selected {
+    background-color: #007ACC;
+    color: #FFFFFF;
+}
+
+QListWidget::item:selected:!active {
+    background-color: #007ACC;
+    color: #FFFFFF;
+}
+
+QListWidget::item:selected:active {
+    background-color: #005C99;
+}
+</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <layout class="QVBoxLayout" name="verticalLayout_7">
+        <item>
+         <layout class="QHBoxLayout" name="horizontalLayout_13" stretch="3">
+          <item>
+           <layout class="QHBoxLayout" name="horizontalLayout_15">
+            <item>
+             <widget class="QLabel" name="label_name">
+              <property name="font">
+               <font>
+                <pointsize>20</pointsize>
+                <bold>true</bold>
+               </font>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">color: rgb(255, 255, 255);</string>
+              </property>
+              <property name="text">
+               <string>NAME</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </item>
+         </layout>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <layout class="QVBoxLayout" name="verticalLayout_6">
+        <item>
+         <widget class="QLabel" name="label_post">
+          <property name="font">
+           <font>
+            <pointsize>20</pointsize>
+            <bold>true</bold>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">color:rgb(255,255,255);
+background-color:#333333;</string>
+          </property>
+          <property name="text">
+           <string>POST</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <layout class="QVBoxLayout" name="verticalLayout_4">
+        <item>
+         <layout class="QHBoxLayout" name="horizontalLayout_17" stretch="1,0,0,1,2,1,2,0,0,1">
+          <item>
+           <layout class="QHBoxLayout" name="horizontalLayout_19">
+            <item alignment="Qt::AlignLeft|Qt::AlignVCenter">
+             <widget class="QPushButton" name="pushButton_previousPost">
+              <property name="styleSheet">
+               <string notr="true">QPushButton {
+    border: none;
+    border-radius: 10px;
+    background-color: #333333;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    outline: none;
+}
+
+QPushButton:hover {
+    background-color: #555555;
+}</string>
+              </property>
+              <property name="text">
+               <string>PREVIOUS POST</string>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </item>
+          <item>
+           <spacer name="horizontalSpacer_4">
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>40</width>
+              <height>20</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+          <item>
+           <spacer name="horizontalSpacer_6">
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>40</width>
+              <height>20</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+          <item>
+           <layout class="QHBoxLayout" name="horizontalLayout_23">
+            <item alignment="Qt::AlignRight|Qt::AlignVCenter">
+             <widget class="QPushButton" name="pushButton_like">
+              <property name="styleSheet">
+               <string notr="true">QPushButton {
+    border: none;
+    border-radius: 10px;
+    background-color: #333333;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    outline: none;
+}
+
+QPushButton:hover {
+    background-color: #555555;
+}</string>
+              </property>
+              <property name="text">
+               <string>LIKE</string>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </item>
+          <item>
+           <layout class="QHBoxLayout" name="horizontalLayout_22">
+            <item alignment="Qt::AlignLeft|Qt::AlignVCenter">
+             <widget class="QLabel" name="label_likesCount">
+              <property name="font">
+               <font>
+                <pointsize>15</pointsize>
+                <bold>true</bold>
+               </font>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">color: rgb(255, 255, 255);</string>
+              </property>
+              <property name="text">
+               <string>LIKES : </string>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </item>
+          <item>
+           <layout class="QHBoxLayout" name="horizontalLayout_21">
+            <item alignment="Qt::AlignRight|Qt::AlignVCenter">
+             <widget class="QPushButton" name="pushButton_addComment">
+              <property name="styleSheet">
+               <string notr="true">QPushButton {
+    border: none;
+    border-radius: 10px;
+    background-color: #333333;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    outline: none;
+}
+
+QPushButton:hover {
+    background-color: #555555;
+}</string>
+              </property>
+              <property name="text">
+               <string>COMMENT</string>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </item>
+          <item>
+           <layout class="QHBoxLayout" name="horizontalLayout_20">
+            <item alignment="Qt::AlignLeft|Qt::AlignVCenter">
+             <widget class="QLabel" name="label_commentsCount">
+              <property name="font">
+               <font>
+                <pointsize>15</pointsize>
+                <bold>true</bold>
+               </font>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">color: rgb(255, 255, 255);</string>
+              </property>
+              <property name="text">
+               <string>COMMENTS : </string>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </item>
+          <item>
+           <spacer name="horizontalSpacer_7">
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>40</width>
+              <height>20</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+          <item>
+           <spacer name="horizontalSpacer_5">
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>40</width>
+              <height>20</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+          <item>
+           <layout class="QHBoxLayout" name="horizontalLayout_18">
+            <item alignment="Qt::AlignRight|Qt::AlignVCenter">
+             <widget class="QPushButton" name="pushButton_nextPost">
+              <property name="styleSheet">
+               <string notr="true">QPushButton {
+    border: none;
+    border-radius: 10px;
+    background-color: #333333;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    outline: none;
+}
+
+QPushButton:hover {
+    background-color: #555555;
+}</string>
+              </property>
+              <property name="text">
+               <string>NEXT POST</string>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </item>
+         </layout>
+        </item>
+       </layout>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

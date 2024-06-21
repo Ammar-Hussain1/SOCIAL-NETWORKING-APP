@@ -1,0 +1,9 @@
+D:/Fast Nuces/Semester-2/OOP/Semester Project/SOCIAL-NETWORKING-APP/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/CMakeFiles/SOCIAL-NETWORKING-APP.dir
+D:/Fast Nuces/Semester-2/OOP/Semester Project/SOCIAL-NETWORKING-APP/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/CMakeFiles/edit_cache.dir
+D:/Fast Nuces/Semester-2/OOP/Semester Project/SOCIAL-NETWORKING-APP/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/CMakeFiles/rebuild_cache.dir
+D:/Fast Nuces/Semester-2/OOP/Semester Project/SOCIAL-NETWORKING-APP/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/CMakeFiles/list_install_components.dir
+D:/Fast Nuces/Semester-2/OOP/Semester Project/SOCIAL-NETWORKING-APP/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/CMakeFiles/install.dir
+D:/Fast Nuces/Semester-2/OOP/Semester Project/SOCIAL-NETWORKING-APP/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/CMakeFiles/install/local.dir
+D:/Fast Nuces/Semester-2/OOP/Semester Project/SOCIAL-NETWORKING-APP/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/CMakeFiles/install/strip.dir
+D:/Fast Nuces/Semester-2/OOP/Semester Project/SOCIAL-NETWORKING-APP/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/CMakeFiles/SOCIAL-NETWORKING-APP_autogen_timestamp_deps.dir
+D:/Fast Nuces/Semester-2/OOP/Semester Project/SOCIAL-NETWORKING-APP/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/CMakeFiles/SOCIAL-NETWORKING-APP_autogen.dir

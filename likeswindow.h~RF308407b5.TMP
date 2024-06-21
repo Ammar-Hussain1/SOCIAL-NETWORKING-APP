@@ -1,0 +1,45 @@
+#ifndef LIKESWINDOW_H
+#define LIKESWINDOW_H
+#include "project.h"
+#include <QDir>
+#include <QFile>
+
+#include <QMainWindow>
+
+class User;
+
+namespace Ui {
+class LikesWindow;
+}
+
+class LikesWindow : public QMainWindow
+{
+    Q_OBJECT
+
+signals:
+    void backToProfile();
+    void backToPage();
+
+public:
+    explicit LikesWindow(char parentCh,QWidget *parent = nullptr);
+    ~LikesWindow();
+    void setUpThePage();
+    void setUser(User*&,int indexOfPost);
+    void setUser(User*&,User*&,int);
+    void setPate(User*&,Post*&,int);
+
+private slots:
+    void on_pushButton_like_clicked();
+
+    void on_pushButton_goBack_clicked();
+
+private:
+    Ui::LikesWindow *ui;
+    User * userPtr;
+    char parentCh;
+    int indexOfPost;
+    User * friendUser;
+    Post * followedPage;
+};
+
+#endif // LIKESWINDOW_H
